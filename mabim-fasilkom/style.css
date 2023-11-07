@@ -1,0 +1,104 @@
+body{
+    margin: 0px;
+}
+/* HALAMAN INDEX */
+nav{
+    background-color: dodgerblue;
+    overflow: hidden;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    float: right;
+    padding: 20px;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: dodgerblue;
+    float: right;
+    padding: 20px;
+    background: white;
+}
+
+nav img{
+    float: left;
+}
+
+h1{
+    color: dodgerblue;;
+}
+/* HALAMAN INDEX */
+
+
+/* HALAMAN LOGIN */
+.warp{
+    padding: 200px 500px 50px 500px;
+}
+
+.bg-login{
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0px 20px 0px;
+    display: inline-block;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+input[type=button] {
+    background-color: dodgerblue;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0px 10px 0px;
+    display: inline-block;
+    border: 5px solid white;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+input[type=button]:hover{
+    background-color: white;
+    color: dodgerblue;
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0px 10px 0px;
+    display: inline-block;
+    border: 5px solid dodgerblue;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+form a{
+    background-color: salmon;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    display: inline-block;
+    border: 5px solid white;
+    box-sizing: border-box;
+    border-radius: 100px;
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+
+form a:hover{
+    background-color: white;
+    color: salmon;
+    width: 100%;
+    padding: 20px;
+    display: inline-block;
+    border: 5px solid salmon;
+    box-sizing: border-box;
+    border-radius: 100px;
+    text-decoration: none;
+}
+/* HALAMAN LOGIN */
